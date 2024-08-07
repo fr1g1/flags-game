@@ -1,0 +1,8 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+    base: 'https://fr1g1.github.io/flags-game/',
+    plugins: [react()],
+})
